@@ -1,6 +1,9 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600; /* Ajusta el grosor de la fuente */
+}
+
+.thicker-line {
+    border-width: 3px; /* O el grosor que prefieras */
 }
 
 body {
