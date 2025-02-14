@@ -363,4 +363,21 @@ body {
     padding: 30px;  /* Agrega un padding de 20px alrededor de la imagen */
 }
 
+.bg-custom {
+    min-height: 450px; /* Ajusta este valor según necesites */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.card-body {
+    flex-grow: 1; /* Permite que el contenido crezca dentro de la tarjeta */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#Imagencarusel {
+    max-height: 300px; /* Ajusta el tamaño de la imagen para que no ocupe demasiado espacio */
+    object-fit: contain;
+}
