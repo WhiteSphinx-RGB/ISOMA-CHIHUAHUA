@@ -329,11 +329,9 @@ body {
 }
 
 /* Fondo negro para las tarjetas en los carruseles */
-#cardValvulas1, #cardValvulas2,
-#cardManometros1, #cardManometros2,
-#cardCascos1, #cardCascos2 {
-    background-color: #24242c !important; /* Fondo negro */
-    color: #fff; /* Texto blanco para contraste */
+.bg-custom {
+    background-color: grey; /* Cambia este color por el que desees */
+    color: #000; /* Ajusta el color del texto si es necesario */
 }
 
 #Titulosdeproductos {
